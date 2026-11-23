@@ -1,7 +1,7 @@
 # START
 
 #1
-from db import run_query_select, run_update_query
+from part_C.db import run_query_select, run_update_query
 
 movies = run_query_select("SELECT * FROM movies")
 
